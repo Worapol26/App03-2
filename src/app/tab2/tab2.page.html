@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="y">
+    <ion-title>
+      Components 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    1.Card
+    <ion-card>
+      <img alt="Silhouette of mountains"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFw0Myk1L5ugYSeSf_jycIin04ZR9g9p2e0PaQJ_UoLp-bFrycXKPkO7E8B1irGeftGR8&usqp=CAU" />
+      <ion-card-header>
+        <ion-card-title>PSC</ion-card-title>
+        <ion-card-subtitle>วิทลัยชื่อดังย่านท่าน้ำนนท์</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        14/5 ถ.พิบูลสงคราม ต.สวนใหญ่ อ.เมือง จ.นนทบุรี 11000
+      </ion-card-content>
+    </ion-card>
+  </ion-item>
+
+  <ion-item>
+    <ion-label> 2.checkbox</ion-label>
+    <ion-checkbox slot="end">เลือกชั้นสิ</ion-checkbox>
+    <ion-checkbox slot="end">เลือกชั้นดีกว่า</ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label> 3.chip </ion-label>
+    <ion-chip>
+      <ion-avatar>
+        <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+      </ion-avatar>
+      <ion-label>Avatar Chip</ion-label>
+      <ion-icon name="close-circle"></ion-icon>
+    </ion-chip>
+  </ion-item>
+</ion-content>

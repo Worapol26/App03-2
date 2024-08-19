@@ -1,0 +1,37 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-orange: #ff7300;
+	--ion-color-orange-rgb: 255, 115, 0;
+	--ion-color-orange-contrast: #000000;
+	--ion-color-orange-contrast-rgb: 0, 0, 0;
+	--ion-color-orange-shade: #e06500;
+	--ion-color-orange-tint: #ff811a;
+}
+
+.ion-color-orange {
+	--ion-color-base: var(--ion-color-orange);
+	--ion-color-base-rgb: var(--ion-color-orange-rgb);
+	--ion-color-contrast: var(--ion-color-orange-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-orange-contrast-rgb);
+	--ion-color-shade: var(--ion-color-orange-shade);
+	--ion-color-tint: var(--ion-color-orange-tint);
+}
+
+:root {
+	--ion-color-y: #fbff00;
+	--ion-color-y-rgb: 251, 255, 0;
+	--ion-color-y-contrast: #000000;
+	--ion-color-y-contrast-rgb: 0, 0, 0;
+	--ion-color-y-shade: #dde000;
+	--ion-color-y-tint: #fbff1a;
+}
+
+.ion-color-y {
+	--ion-color-base: var(--ion-color-y);
+	--ion-color-base-rgb: var(--ion-color-y-rgb);
+	--ion-color-contrast: var(--ion-color-y-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-y-contrast-rgb);
+	--ion-color-shade: var(--ion-color-y-shade);
+	--ion-color-tint: var(--ion-color-y-tint);
+}
